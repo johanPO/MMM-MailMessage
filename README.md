@@ -37,9 +37,9 @@ To use MMM-MailMessage, add it to the modules array in the config/config.js file
              host: 'mail.mydomain.com',
              port: 993,
              subjectlength: 50,
-             validSenders: [ { addr: "dad@mydomain.com",  name: "Dad",   color: "#00ff00", }
-                             { addr: "mom@mydomain.com",  name: "Mom",   color: "#ff0000", }
-                             { addr: "son@mydomain.com",  name: "Billy", }
+             validSenders: [ { addr: "dad@mydomain.com",  name: "Dad",   color: "#00ff00", },
+                             { addr: "mom@mydomain.com",  name: "Mom",   color: "#ff0000", },
+                             { addr: "son@mydomain.com",  name: "Billy", },
                              { addr: "nana@mydomain.com", name: "Nana",  }
              ],
              daysToDisplay: 0,
